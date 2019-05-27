@@ -1,0 +1,260 @@
+body {
+	padding-bottom: 40px;
+	color: #5a5a5a;
+}
+
+#back {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 30;
+}
+
+.navbar-wrapper {
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+.navbar-wrapper>.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+	padding-right: 15px;
+	padding-left: 15px;
+	background-color: inherit;
+	margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+	color: white !important;
+}
+
+.navbar-inverse .navbar-brand {
+	color: black !important;
+	cursor: default;
+	padding-top: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+	width: auto;
+}
+
+.navbar-nav a {
+	line-height: 30px;
+	font-size: 20px;
+	color: black !important;
+}
+
+.navbar-header>a {
+
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#back>a>img {
+	width: 30px;
+	height: 30px;
+}
+
+.carousel {
+	height: 500px;
+	margin-bottom: 60px;
+}
+
+.carousel-caption {
+	z-index: 10;
+}
+
+.carousel-caption p {
+	margin-bottom: 100px;
+	font-size: 21px;
+	line-height: 1.4;
+}
+
+.carousel .item {
+	height: 500px;
+	background-color: #777;
+}
+
+.carousel-inner>.item>img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 500px;
+}
+
+.jumbotron {
+	text-align: center;
+	padding-top: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: transparent;
+}
+
+.tour .col-lg-6 {
+	padding-left: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.tour h2 {
+	font-weight: normal;
+}
+
+.tour>.row p {
+	text-align: left;
+	font-size: 20px;
+}
+
+#off_beat h2 {
+	text-align: center;
+}
+
+.thumbnail>img {
+	height: 250px;
+	width: 100%;
+}
+
+.sightseeing-divider {
+	margin: 80px 0;
+}
+
+.sightseeing {
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-bottom: 20px;
+	border-top: 1px solid #000;
+}
+
+
+.sightseeing-heading {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+.cus-grand {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.cus-father {
+	padding-left: 40px;
+	margin-bottom: 30px;
+}
+
+.cus {
+	height: auto;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.cus-image {
+	width: 100%;
+	height: auto;
+	opacity: 0.3;
+	transition-property: all;
+	transition-duration: 0.4s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+}
+
+.cus:hover>img {
+	transform: scale(1.2);
+}
+
+.review-info {
+	font-weight: bold;
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 5%;
+	color: black;
+	font-size: 3vw;
+}
+
+.review {
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 15%;
+	height: auto;
+	color: black;
+	font-size: 3vw;
+}
+
+.add-info>h1 {
+	margin-bottom: 50px;
+}
+
+.add-info .lead {
+	color: black;
+	text-align: left;
+}
+
+footer {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: auto;
+	}
+
+	.navbar-wrapper .navbar {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.navbar-wrapper .navbar {
+		border-radius: 4px;
+	}
+
+	.sightseeing-heading {
+		font-size: 50px;
+	}
+
+	.thumbnail>img {
+		width: 70%;
+		height: 300px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.carousel-caption p {
+		margin-bottom: 150px;
+	}
+
+	#back>a>img {
+		width: 60px;
+		height: 60px;
+	}
+
+	.thumbnail>img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.review-info {
+		font-size: 1.5vw;
+	}
+
+	.review {
+		font-size: 1.5vw;
+	}
+}
